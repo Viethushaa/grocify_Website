@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Make Website with Tailwind CSS</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body>
+        <div class="container min-h-screen bg-[url('images/Image.png')] bg-center bg-cover px-28 py-5 relative">
+            
+            <nav class="flex items-center ml-[-0px]"> 
+                <img src="images/logo.png" alt="Logo" class="w-40 cursor-pointer">
+                <ul class="flex-1 text-center items-center ml-[-550px]">
+                    <li class="list-none inline-block px-5"><a href="#" class="no-underline text-white px-2 text-xl py-4 " >Home</a></li>
+                    <li class="list-none inline-block px-5"><a href="#about" class="no-underline text-white px-2 text-xl py-4">About</a></li>
+                    <li class="list-none inline-block px-5"><a href="#features" class="no-underline text-white px-2 text-xl py-4">Features</a></li>
+                    <li class="list-none inline-block px-5"><a href="#contact" class="no-underline text-white px-2 text-xl py-4">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="text-white mt-48 max-w-xl">
+                <h1 class="text-6xl font-semibold leading-normal max-w-xl">Groceries<br>Delivery in <span class="font-light">15mins</span></h1>
+                <p>Grocify offers a wide range of products, including fresh products, meats, dairy, baked goods, and non-perishable items.</p>
+
+                <div class="mt-10">
+                    <a href="#" class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-transparent
+                     hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent"
+                    >Order Now</a>
+                    <a href="#" class="">Download App<span class="text-lg inline-block rotate-90">&#10148</span></a>
+                </div>
+            </div>
+
+            <div class="absolute bottom-0 right-0 w-full xl:w-1/2 max-w-full overflow-hidden">
+                <img src="images/grocery-image.png" alt="grocery" class="w-full h-auto object-cover">
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-gray-100">
+            <div class="max-w-6xl mx-auto px-6 text-center">
+                <h2 class="text-4xl font-semibold mb-4">About Us</h2>
+                <p class="text-lg text-gray-600 mb-8">Grocify is an online grocery delivery service focused on providing fresh, high-quality groceries delivered directly to your door in just 15 minutes. Whether you need fresh produce, dairy, meats, or baked goods, we’ve got you covered.</p>
+                <a href="#" class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium inline-block hover:bg-transparent hover:border-yellow-300 hover:text-yellow-500 duration-300 hover:border border border-transparent">Learn More</a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-20">
+            <div class="max-w-6xl mx-auto px-6 text-center">
+                <h2 class="text-4xl font-semibold mb-8">Our Features</h2>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-md">
+                        <h3 class="text-2xl font-semibold mb-4">Fast Delivery</h3>
+                        <p class="text-gray-600">Get your groceries delivered to your doorstep in as little as 15 minutes. We are committed to providing quick and reliable service.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md">
+                        <h3 class="text-2xl font-semibold mb-4">Fresh Products</h3>
+                        <p class="text-gray-600">We offer a wide variety of fresh groceries, from fruits and vegetables to dairy and meats, all sourced from trusted suppliers.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md">
+                        <h3 class="text-2xl font-semibold mb-4">User-Friendly App</h3>
+                        <p class="text-gray-600">Our easy-to-use app lets you shop for groceries with just a few taps, making it simple to add items, place orders, and track deliveries.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer id="contact" class="bg-gray-800 text-white py-8">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div>
+                        <img src="images/logo.png" alt="Logo" class="w-40 mb-4">
+                        <p class="text-gray-400">Grocify offers fast, reliable grocery delivery right to your doorstep. We’re here to make your shopping experience better!</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-4">Quick Links</h3>
+                        <ul>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Home</a></li>
+                            <li><a href="#about" class="text-gray-400 hover:text-white">About</a></li>
+                            <li><a href="#features" class="text-gray-400 hover:text-white">Features</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-4">Contact Us</h3>
+                        <ul>
+                            <li><a href="mailto:info@grocify.com" class="text-gray-400 hover:text-white">info@grocify.com</a></li>
+                            <li><a href="tel:+1234567890" class="text-gray-400 hover:text-white">+1 234 567 890</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold mb-4">Follow Us</h3>
+                        <ul class="flex space-x-6">
+                            <li><a href="#" class="text-gray-400 hover:text-white">Facebook</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Twitter</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center">
+                <p class="text-gray-400 text-sm">© 2025 Grocify. All rights reserved.</p>
+            </div>
+        </footer>
+
+    </body>
+</html>
