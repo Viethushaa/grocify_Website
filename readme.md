@@ -20,5 +20,4 @@ Grocify is an online grocery delivery service that focuses on providing fresh, h
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/grocify.git
+   https://github.com/Viethushaa/grocify_Website.git
